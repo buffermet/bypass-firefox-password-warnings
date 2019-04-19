@@ -43,6 +43,7 @@ for (var i = 0; i < PASSWORD_FIELDS.length; i++) {
 				SPOOFED_FIELD.selectionEnd = CURSOR_START+1;
 			}
 		}
+
 		console.log("tried to insert " + EVENT.key + " at " + CURSOR_START + ":" + CURSOR_END);
 		console.log("remembered: " + SPOOFED_FIELD.memory);
 	});
